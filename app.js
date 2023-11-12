@@ -1,6 +1,7 @@
 const express = require("express");
 const mongoose = require("mongoose");
 const app = express();
+const Listing = require("./models/listing.js");
 
 
 main()
